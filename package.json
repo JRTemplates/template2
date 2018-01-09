@@ -1,0 +1,27 @@
+{
+  "name": "template2",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "supervisor -i ./webApp/,./mock/ -p 1000 build/dev-server.js",
+    "build": "rm -rf ./dist & webpack --display-error-details --color --progress",
+    "test": "Parcel ./webApp/index.html",
+    "typings": "typings install"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/JRTemplates/template2.git",
+  "author": "hzxiongxu",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^7.2.4",
+    "jr-ui": "^0.0.5",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.1",
+    "regularjs": "^0.6.0-beta.8",
+    "sass-loader": "^6.0.6",
+    "stateman": "^0.3.0-beta.2",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
