@@ -1,2 +1,2 @@
 # template2
-模板2
+## parcel+yarn+typescripe  
